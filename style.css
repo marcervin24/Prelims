@@ -357,3 +357,34 @@ body::-webkit-scrollbar {
     width: 180px;
   }
 }
+
+/* =======================
+   FOOTER
+======================= */
+.footer {
+  background: #1c1c1c;
+  padding: 40px 20px;
+  color: #eee;
+  margin-top: 60px;
+  border-top: 3px solid #ff2e46;
+}
+.footer h2 {
+  color: #ff2e46;
+  margin-bottom: 20px;
+}
+.footer-content p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+.footer i {
+  color: #ff2e46;
+  margin-right: 10px;
+}
+.footer .social-links a {
+  margin: 0 10px;
+  color: #ddd;
+  transition: color 0.3s;
+}
+.footer .social-links a:hover {
+  color: #ff2e46;
+}
